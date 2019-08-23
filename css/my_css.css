@@ -11,7 +11,7 @@
 /*--------------------------------------*/
 
 .wrapper {
-    position: fixed;
+    position: relative;
     top: 0;
     right: 0;
     bottom: 0;
@@ -35,6 +35,8 @@
     background-attachment: scroll;
 }
 
+
+
 .head{
   font-family: sans-serif;
   color:black;
@@ -55,10 +57,11 @@
   border-radius: 50%;
 }
 
+
 .instagram_button {
   width: 24px;
   height: 24px;
-  margin-right: 20px;
+  margin-right: 18px;
   padding: 0px;
   background-color: transparent;
   background-image: url("../images/instagram_logo.png");
@@ -79,7 +82,7 @@
 .brunch_button {
   width: 24px;
   height: 24px;
-  margin-right: 20px;
+  margin-right: 18px;
   padding: 0px;
   background-color: transparent;
   background-image: url("../images/brunch_logo1.png");
@@ -101,7 +104,7 @@
   width: 24px;
   height: 24px;
   padding: 0px;
-  margin-right: 20px;
+  margin-right: 18px;
   background-color: transparent;
   background-image: url("../images/medium_logo1.png");
   background-position: 0px 0px;
@@ -118,14 +121,14 @@
 }
 
 .github_icon {
-  margin-right: 20px;
+  margin-right: 18px;
   padding-right: 0px;
 }
 
 .github_button {
   width: 24px;
   height: 24px;
-  margin-right: 20px;
+  margin-right: 18px;
   padding: 0px;
   background-color: transparent;
   background-image: url("../images/github_logo.png");
@@ -169,7 +172,7 @@
 
 .w-button{
 	display:inline-block;
-	padding:9px 15px;
+	padding:9px 10px;
 	background-color:transparent;
 	color:white;border:0;
 	line-height:inherit;
@@ -193,5 +196,5 @@
 }
 
 .footer{
-  font-size: 20px;
+  font-size: 12px;
 }
